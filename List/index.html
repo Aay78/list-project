@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="index.css">
+      <script src="index.js"></script>
+      <title>Booking for Flight 729</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Please fill out the form below</h1>
+        <form id="info">
+            <label for="fname">First Name:</label><br>
+            <input type="text" class="fname" id="name_input"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" class="lname" id="last"><br>
+            <label for="dob">Date Of Birth:</label><br>
+            <input type="date" class="dob" id="DOB"><br>
+            <label for="cod">City of Departure:</label><br>
+            <input type="text" class="cod"><br>
+            <label for="coa">City of Arrival:</label><br>
+            <input type="text" class="coa"><br>
+            <label for="DL">Date Leaving:</label><br>
+            <input type="date" class="DL"><br>
+            <label for="DR">Date Returning:</label><br>
+            <input type="date" class="DR"><br>
+            <label for="bags">Number of bags:</label><br> 
+            <input type="number" class="bags"><br>
+            <label for="meal">Meal type:</label><br>
+            <input type="radio" id="chicken" name="food" value="chicken">
+            <label for="chicken">Chicken</label><br>
+            <input type="radio" id="Fish" name="food" value="chicken">
+            <label for="Fish">Fish</label><br>
+            <input type="radio" id="vegetarian" name="food" value="Vegetarian">
+            <label for="vegetarian">Vegetarian</label><br>
+            <label for="extras">Extra Preferences:</label><br>
+            <input type="checkbox" class="extra" name="Extra Leg room">
+            <label for="Extra Leg room">Extra Leg room</label><br>
+            <input type="checkbox" class="extra" name="Window Seat">
+            <label for="Window Seat">Window Seat</label><br>
+            <input type="checkbox" class="extra" name="Headphones">
+            <label for="Headphones">Headphones</label><br>
+            <input type="checkbox" class="extras" name="Extra Meal">
+            <label for="Extra Meal">Extra meal</label><br>
+            <button onclick="showName()" id ="Submit" type="button">Submit</button>
+
+        </form>
+        <p>Passengers:<span id = "display"></span><span id="show"></span> </p>
+        
+
+    </body>
+</html>
